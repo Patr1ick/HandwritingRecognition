@@ -18,7 +18,7 @@ This pre-trained model has an accurency of 98.39%.
 
 ### Run the application
 
-After that you can simply call the following command:
+After that you only need to execute the following command:
 
 ```bash
 python main.py
@@ -26,7 +26,7 @@ python main.py
 
 ### Train the neural network yourself
 
-To train the neural network again or to change for example hyperparameters. You can simply run the [`TrainModel.ipynb`](/TrainModel.ipynb) Notebook. At the end of the notebook it will save the trained model as `model.pth`.
+To train the neural network again or to change for example hyperparameters, you can simply run the [`TrainModel.ipynb`](/TrainModel.ipynb) Notebook. At the end of the notebook it will save the trained model as `model.pth`.
 
 ## Information
 
@@ -39,7 +39,7 @@ Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: an extension
 
 ### Neural Network
 
-The PyTorch library was used for the neural network. The neural network is a simple convolutional neural network with 2 Convolutional layers with the LeakyReLU activation function and each has a Max-Pooling Layer with a kernel_size of 2. After the last Convolutional Layer the size of the input is 3x3 with 64 channels. This tensor will be reshape that it fit into the last second Linear Layers which will produce the ouput. The ouput tensor is a array with the ouput_size (here 47 classes). The probabilities are generated with a softmax function by the app.
+The PyTorch library was used for the neural network. The neural network is a simple convolutional neural network with 2 Convolutional layers with the LeakyReLU activation function and each has a Max-Pooling Layer with a kernel_size of 2. After the last Convolutional Layer the size of the input is 5x5 with 72 channels. This tensor will be reshape that it fit into the last second Linear Layers which will produce the ouput. The ouput tensor is a array with the ouput_size (here 47 classes). The probabilities are generated with a softmax function by the app.
 
 ## Used tutorials
 
