@@ -11,8 +11,6 @@ class NeuralNetwork(nn.Module):
         The first layer using a 2D convolution layer, the LeakyReLU activation function and a Pooling Layer.
     conv2: Sequential
         The second layer using a 2D convolution layer, the LeakyReLU activation function and a Pooling Layer.
-    conv3: Sequential
-        The third layer using a 2D convolution layer, the LeakyReLU activation function and a Pooling Layer.
     out: Sequential
         The output layer which produces the output using first a Linear Layer, the LeakyReLU activation function, a Dropout Layer with 40% Dropout and the last Linear Layer.
 

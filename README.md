@@ -7,7 +7,7 @@ This is the project for the elective module "Python" at DHBW Stuttgart.
 
 ### Requirements
 
-With the help of pip you can download all the libraries you need.
+It is recommended to run the application with Python 3.9. With pip you can download all the libraries you need for the program.
 
 ```bash
 pip install -r requirements.txt
