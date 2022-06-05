@@ -1,0 +1,10 @@
+# Image libraries
+Pillow
+opencv-python
+# PyTorch
+torch
+torchvision
+# Other
+matplotlib
+numpy
+tqdm
